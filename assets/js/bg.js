@@ -7,7 +7,7 @@ const IMG_NUM = 6;
 
 function callImage(imgNumber){
     const image = new Image();
-    image.src = `images/${imgNumber + 1 }.jpg`;
+    image.src = `../assets/images/${imgNumber + 1 }.jpg`;
     image.classList.add("bgImage");
     body.appendChild(image);
 }
